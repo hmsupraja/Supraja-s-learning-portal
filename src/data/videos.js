@@ -4,21 +4,21 @@ const videos = [
     title: "Python Basics",
     description: "Learn Python from scratch",
     video: "/videos/python.mp4",
-    thumbnail: "https://picsum.photos/300/200?random=1",
+    thumbnail: "/images/python.png",
   },
   {
     id: 2,
     title: "React Basics",
     description: "Learn React Fundamentals",
     video: "/videos/react.mp4",
-    thumbnail: "https://picsum.photos/300/200?random=2",
+    thumbnail: "/images/react.png",
   },
   {
     id: 3,
     title: "JavaScript",
     description: "JavaScript for Beginners",
     video: "/videos/javascript.mp4",
-    thumbnail: "https://picsum.photos/300/200?random=3",
+    thumbnail: "/images/javascript.png",
   },
 ];
 
