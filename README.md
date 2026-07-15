@@ -1,65 +1,94 @@
 # 🎓 Learning Portal
 
-## Project Overview
-
-The Learning Portal is a React-based web application that allows students to watch educational videos and create bookmarks at important timestamps. Students can resume watching videos from saved bookmarks, and the application stores bookmarks and watch progress using Local Storage.
+A React-based Learning Portal developed as part of the **GVCC Assignment**. This application enables students to watch educational videos, create multiple bookmarks at important timestamps, and resume playback from saved bookmarks. The application also saves watch progress using Local Storage for a better learning experience.
 
 ---
 
-## Features
+## 🔗 Project Links
+
+**GitHub Repository**  
+:contentReference[oaicite:0]{index=0}
+
+**Live Demo**  
+:contentReference[oaicite:1]{index=1}
+
+---
+
+## 🚀 Features
 
 - 🎥 Learning Video Portal
-- ▶️ Video Player
-- 📌 Multiple Bookmarks per Video
-- 📝 Custom Bookmark Name
-- ⏱️ Resume Playback from Bookmark
-- 💾 Persistent Storage using Local Storage
+- ▶️ HTML5 Video Player
+- 📌 Create Multiple Bookmarks per Video
+- 📝 Custom Bookmark Names
+- ⏱️ Resume Playback from Any Bookmark
+- 💾 Persistent Bookmark Storage using Local Storage
 - 📈 Continue Watching Feature
 - 🗑️ Delete Bookmarks
-- 🚫 Right-click Disabled
-- 🎓 Learning Portal Watermark/Branding
+- 🚫 Right-click Disabled (Basic Screenshot Protection)
+- 🎓 Learning Portal Watermark
 - 📱 Responsive User Interface
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - React.js
 - Vite
 - React Router DOM
 - HTML5 Video
-- CSS
+- JavaScript (ES6)
+- CSS3
 - Local Storage
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
-frontend/
+```text
+learning-portal/
+│
 ├── public/
-│ └── videos/
+│   ├── videos/
+│   └── images/
+│
+├── screenshots/
+│
 ├── src/
-│ ├── components/
-│ ├── data/
-│ ├── pages/
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
 ├── package.json
+├── vite.config.js
 └── README.md
+```
 
 ---
 
-## Installation
+## ⚙️ Installation
 
-1. Clone the repository
+### Clone the repository
 
-2. Install dependencies
+```bash
+git clone https://github.com/hmsupraja/Supraja-s-learning-portal.git
+```
+
+### Navigate to the project folder
+
+```bash
+cd Supraja-s-learning-portal
+```
+
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-3. Start the project
+### Run the application
 
 ```bash
 npm run dev
@@ -67,15 +96,29 @@ npm run dev
 
 ---
 
-## Screenshot Protection
+## 📸 Screenshots
 
-Complete screenshot prevention is not possible in web browsers. This project implements practical protection by:
+- Home Page
+- Video Player
+- Bookmark List
+- Resume from Bookmark
+- Continue Watching
 
-- Disabling the right-click context menu.
-- Displaying Learning Portal branding/watermark.
+*(Screenshots are available in the `screenshots` folder.)*
 
 ---
 
-## Author
+## 🔒 Screenshot Protection
 
-Hasthalamangali Supraja
+Complete screenshot prevention is not possible in web browsers. This project implements practical protection mechanisms by:
+
+- Disabling the right-click context menu.
+- Displaying a watermark ("Learning Portal") over the video player.
+
+---
+
+## 👩‍💻 Author
+
+**Hasthalamangali Supraja**
+
+GVCC Learning Portal Assignment
