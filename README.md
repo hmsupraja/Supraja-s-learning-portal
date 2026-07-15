@@ -7,10 +7,10 @@ A React-based Learning Portal developed as part of the **GVCC Assignment**. This
 ## 🔗 Project Links
 
 **GitHub Repository**  
-:contentReference[oaicite:0]{index=0}
+https://github.com/hmsupraja/Supraja-s-learning-portal.git
 
-**Live Demo**  
-:contentReference[oaicite:1]{index=1}
+**Live Deploy**  
+https://supraja-s-learning-portal.vercel.app/
 
 ---
 
